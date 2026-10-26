@@ -2,9 +2,9 @@
 
 $host = "localhost";
 $port = "5432";
-$dbname = "belajar_postgres";
+$dbname = "expenses_tracker_db";
 $username = "belajar_user";
-$password = "belajar12";
+$password = "belajar123";
 
 $dsn = "pgsql:host={$host};port={$port};dbname={$dbname}";
 
