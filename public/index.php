@@ -1,4 +1,2 @@
 <?php
-header ('Content-Type: application/json');
-
-echo json_encode(['status' => 'ok', 'php' => PHP_VERSION]);
+$pdo = require __DIR__ . '/../config/connection.php';
